@@ -32,12 +32,12 @@ export default function Auth() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           {/* Left column: Hero content */}
-          <div className="space-y-8">
+          <div className="space-y-8 bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-8 rounded-lg">
             <div className="space-y-4">
-              <h1 className="text-4xl font-bold text-gray-900 lg:text-5xl">
+              <h1 className="text-4xl font-bold text-white lg:text-5xl">
                 Detask
               </h1>
-              <p className="text-lg text-gray-600">
+              <p className="text-lg text-white/80">
                 Professional task management tool designed for development teams. Track tasks, manage branches, and schedule merges all in one place.
               </p>
               <div className="flex items-center space-x-6">
@@ -57,44 +57,44 @@ export default function Auth() {
             </div>
             
             <div className="space-y-6">
-              <h2 className="text-2xl font-semibold text-gray-900">
+              <h2 className="text-2xl font-semibold text-white">
                 Why teams choose Detask
               </h2>
               <div className="grid grid-cols-1 gap-4">
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
-                    <svg className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
+                    <svg className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
                       <path fillRule="evenodd" d="M8.414 4.293a1 1 0 011.414 0L11 8V4a1 1 0 012 0v4l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-1.293-1.293a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-900">Branch Integration</h3>
-                    <p className="text-gray-600">Automatically detect and link tasks to your Git branches</p>
+                    <h3 className="font-medium text-white">Branch Integration</h3>
+                    <p className="text-white/80">Automatically detect and link tasks to your Git branches</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
-                    <svg className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
+                    <svg className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
                       <path fillRule="evenodd" d="M8.414 4.293a1 1 0 011.414 0L11 8V4a1 1 0 012 0v4l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-1.293-1.293a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-900">Merge Scheduling</h3>
-                    <p className="text-gray-600">Plan and automate merge windows with team approval workflows</p>
+                    <h3 className="font-medium text-white">Merge Scheduling</h3>
+                    <p className="text-white/80">Plan and automate merge windows with team approval workflows</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="flex-shrink-0">
-                    <svg className="h-5 w-5 text-blue-600" viewBox="0 0 20 20" fill="currentColor">
+                    <svg className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor">
                       <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
                       <path fillRule="evenodd" d="M8.414 4.293a1 1 0 011.414 0L11 8V4a1 1 0 012 0v4l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-1.293-1.293a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-medium text-gray-900">Team Collaboration</h3>
-                    <p className="text-gray-600">Real-time updates, comments, and notifications keep everyone aligned</p>
+                    <h3 className="font-medium text-white">Team Collaboration</h3>
+                    <p className="text-white/80">Real-time updates, comments, and notifications keep everyone aligned</p>
                   </div>
                 </div>
               </div>
