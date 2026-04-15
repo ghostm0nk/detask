@@ -36,7 +36,7 @@ export default function Auth() {
             {isSignUp ? 'Create your account' : 'Sign in to Detask'}
           </h2>
           <p className="text-lg text-gray-600">
-            Professional task management for dev teams
+            Detask is a professional task management tool designed for development teams. Track tasks, manage branches, and schedule merges all in one place.
           </p>
         </div>
 
