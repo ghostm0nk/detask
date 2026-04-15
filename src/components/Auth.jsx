@@ -103,7 +103,7 @@ export default function Auth() {
 
           {/* Right column: Auth form */}
           <div className="space-y-8">
-            <div className="bg-white rounded-lg shadow-lg p-8 w-full">
+            <div className="bg-white/50 rounded-lg shadow-lg p-8 w-full">
               <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">
                 {isSignUp ? 'Create your account' : 'Sign in to Detask'}
               </h2>
