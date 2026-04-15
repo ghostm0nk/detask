@@ -49,7 +49,7 @@ export default function Auth() {
                 </button>
                 <button
                   onClick={() => setIsSignUp(false)}
-                  className="px-6 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 transition-colors duration-200 text-base font-medium"
+                  className="px-6 py-3 border border-white text-white rounded-lg hover:bg-white/20 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-white/20 transition-colors duration-200 text-base font-medium"
                 >
                   Sign In
                 </button>
